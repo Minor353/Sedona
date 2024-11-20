@@ -1519,6 +1519,7 @@ body {
   position: absolute;
   left: 0;
   bottom: -34px;
+  display: block;
 }
 
 .info-msg {
@@ -1528,9 +1529,10 @@ body {
   position: absolute;
   left: 0;
   bottom: -34px;
+  display: block;
 }
 
-.popup-label span {
+.popup-form-text {
   min-width: 155px;
   padding-right: 10px;
   box-sizing: border-box;
