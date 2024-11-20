@@ -827,6 +827,7 @@ body {
   border: 2px solid #E6E6E6;
   border-radius: 4px;
   padding: 11px 18px;
+  padding-right: 40px;
   width: 287px;
   font-family: inherit;
   font-size: 18px;
@@ -901,8 +902,7 @@ body {
   display: block;
   position: absolute;
   left: 4px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 6px;
   width: 13px;
   height: 10px;
   background-image: url('../img/icons/tick.svg');
@@ -942,8 +942,7 @@ body {
   display: block;
   position: absolute;
   left: 5px;
-  top: 49%;
-  transform: translateY(-50%);
+  top: 5px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -1325,6 +1324,7 @@ body {
   border-radius: 4px;
   background-color: #83B3D3;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .catalog-pagination-link:hover {
@@ -1372,6 +1372,7 @@ body {
 .display-counter {
   display: flex;
   align-items: center;
+  max-width: 500px;
 }
 
 .display-counter-title {
